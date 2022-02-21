@@ -23,3 +23,9 @@ nav {
   nav .navlinks ul > li:hover {
     color: var(--text-green);
   }
+
+  @media screen and (max-width:768px) {
+    nav .navlinks ul {
+      display: none;
+    }
+  }

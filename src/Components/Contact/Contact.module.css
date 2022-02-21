@@ -62,3 +62,30 @@
 .container .submit span {
     margin-left: 1.5rem;
 }
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 90vw;
+    }
+
+    .container form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 80vw;
+        min-height: 80vh;
+    }
+
+    .container form input, .container form .email, .container form textarea {
+        width: 50vw;
+    }
+
+    .container form .names {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container form .names .first_name {
+        margin-right:0;
+    }  
+}

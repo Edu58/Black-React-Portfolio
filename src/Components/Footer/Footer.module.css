@@ -12,3 +12,14 @@ footer {
     line-height: .1rem;
     font-weight: 500;
   }
+
+  @media screen and (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+      
+    footer .footer_logo {
+      margin-bottom: 3rem;
+    }
+  }

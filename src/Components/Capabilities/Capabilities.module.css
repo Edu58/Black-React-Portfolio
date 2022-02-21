@@ -55,3 +55,31 @@ font-weight: 800;
     max-width: 40%;
     max-height: 50vh;
 }
+
+@media screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .text, .text .desc {
+        max-width: 90vw;
+    }
+
+    .text ul {
+        flex-direction: column;
+    }
+
+
+    .container img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        max-width: 80vw;
+        margin-top: 5rem;
+    }
+
+    .text ul .list_left {
+        margin: 0;
+    }
+}

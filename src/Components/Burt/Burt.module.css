@@ -34,3 +34,21 @@
     height: 90vh;
     max-width: 50%;
 }
+
+@media screen and (max-width:768px) {
+    .section_burt {
+        flex-direction: column;
+    }
+
+    .section_burt .lead_text, .section_burt .desc {
+        max-width: 90vw;
+    }
+
+    .section_burt img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        max-width: 80vw;
+    }
+}

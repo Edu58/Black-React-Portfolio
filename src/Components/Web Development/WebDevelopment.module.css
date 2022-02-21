@@ -50,3 +50,32 @@ font-weight: 600;
     max-width: 40%;
     max-height: 50vh;
 }
+
+
+@media screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .text, .text .desc {
+        max-width: 90vw;
+    }
+
+    .text ul {
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+
+    .text ul .list_left {
+        margin: 0;
+    }
+
+    .container img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        max-width: 80vw;
+        margin: 4rem 0;
+    }
+}

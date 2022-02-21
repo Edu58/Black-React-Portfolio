@@ -40,3 +40,17 @@
     height: auto;
     max-width: 80%;
 }
+
+@media screen and (max-width:768px) {
+    .section2 h3, .section2 .desc {
+        max-width: 90vw;
+    }
+
+    .section2 .byte_img img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        max-width: 80vw;
+    }
+}
