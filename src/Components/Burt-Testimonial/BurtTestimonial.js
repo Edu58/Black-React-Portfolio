@@ -14,7 +14,7 @@ function BurtTestimonial() {
                 </p>
 
                 <div className={style.CTO}>
-                    <img src='/images/burt-unsplash.jpg'></img>
+                    <img src='images/burt-unsplash.jpg'></img>
 
                     <p>Nishanth Avva</p>
                     <p>Director Of Business Development Burt</p>

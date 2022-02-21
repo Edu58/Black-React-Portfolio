@@ -30,7 +30,7 @@ function Capabilities() {
                 </ul>
             </div>
 
-            <img src='/images/web-design.png'></img>
+            <img src='images/web-design.png'></img>
         </div>
      );
 }

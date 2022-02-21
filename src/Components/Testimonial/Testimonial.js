@@ -14,7 +14,7 @@ function Testimonial() {
                 </p>
 
                 <div className={style.CTO}>
-                    <img src='/images/face-unsplash.jpg'></img>
+                    <img src='images/face-unsplash.jpg'></img>
 
                     <p>Mark Junior</p>
                     <p>CTO at Byte</p>

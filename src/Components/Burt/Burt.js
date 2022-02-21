@@ -25,7 +25,7 @@ function Burt() {
                 </p>
             </div>
 
-            <img src='/images/burt.png'></img>
+            <img src='images/burt.png'></img>
         </div>
      );
 }

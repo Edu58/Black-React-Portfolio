@@ -22,7 +22,7 @@ function Work() {
             </p>
 
             <div className={style.byte_img}>
-                <img src='/images/byte.png'></img>
+                <img src='images/byte.png'></img>
             </div>
         </div>
      );
