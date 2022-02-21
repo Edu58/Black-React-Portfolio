@@ -9,6 +9,8 @@ import Burt from './Components/Burt/Burt';
 import BurtTestimonial from './Components/Burt-Testimonial/BurtTestimonial';
 import Capabilities from './Components/Capabilities/Capabilities';
 import WebDevelopment from './Components/Web Development/WebDevelopment';
+import Contact from './Components/Contact/Contact';
+import EmailText from './Components/EmailText/EmailText';
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
       <BurtTestimonial />
       <Capabilities />
       <WebDevelopment />
-
+      <Contact />
+      <EmailText />
+      
       <Footer />
     </>
   );
