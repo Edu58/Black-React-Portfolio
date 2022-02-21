@@ -18,7 +18,7 @@ function Homepage() {
                 </h2>
             </div>
 
-            <img src='/images/vadim-artyukhin-0bcBEgTm6sk-unsplash.jpg'></img>
+            <img src='images/vadim-artyukhin-0bcBEgTm6sk-unsplash.jpg'></img>
         </div>
      );
 }

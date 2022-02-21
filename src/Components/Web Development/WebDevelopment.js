@@ -31,7 +31,7 @@ function WebDevelopment() {
             </ul>
         </div>
 
-        <img src='/images/blue-web-dev.png'></img>
+        <img src='images/blue-web-dev.png'></img>
     </div>
      );
 }
