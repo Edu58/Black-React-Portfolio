@@ -1,24 +1,27 @@
 import logo from './logo.svg';
-import './App.css';
+import style from './App.module.css';
+import Homepage from './Components/Homepage/Homepage';
+import Work from './Components/Work/Work';
+import Testimonial from './Components/Testimonial/Testimonial';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
+import Burt from './Components/Burt/Burt';
+import BurtTestimonial from './Components/Burt-Testimonial/BurtTestimonial';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      
+      <Homepage />
+      <Work />
+      <Testimonial />
+      <Burt />
+      <BurtTestimonial />
+
+      <Footer />
+    </>
   );
 }
 

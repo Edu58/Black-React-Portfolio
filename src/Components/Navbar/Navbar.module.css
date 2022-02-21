@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    color: var(--text-white);
+  }
+  
+  nav .navlinks ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  nav .navlinks ul > li {
+    margin: 0 2rem;
+    font-weight: 800;
+    transition: .2s all;
+    cursor: pointer;
+  }
+  
+  nav .navlinks ul > li:hover {
+    color: var(--text-green);
+  }

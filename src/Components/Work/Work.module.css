@@ -1,0 +1,42 @@
+.section2 .byte {
+    color: var(--text-orange);
+    font-size: 2rem;
+}
+
+.section2 h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    max-width: 55%;
+}
+
+.section2 .desc {
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: 1.15rem;
+    max-width: 50%;
+}
+
+.section2 .see_it_live {
+    color: var(--text-orange);
+    font-size: 1.4rem;
+    font-weight: 800;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section2 .see_it_live span {
+    margin-left: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.section2 .byte_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.section2 .byte_img img {
+    height: auto;
+    max-width: 80%;
+}

@@ -1,0 +1,46 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.hero .homeslogan {
+    margin: 5rem 0 0 0;
+    max-width: 40%;
+}
+
+.hero .homeslogan h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.hero .homeslogan p{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+
+.hero .homeslogan h2 {
+    font-weight: 700;
+    color: var(--text-green);
+    cursor: pointer;
+}
+
+.hero .homeslogan h2 .arrow_icon {
+    margin-left: 1.2rem;
+    font-weight: 800;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.hero .homeslogan span {
+    color: var(--text-blue);
+}
+
+.hero img {
+    height: auto;
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
