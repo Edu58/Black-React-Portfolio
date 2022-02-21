@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    min-height: 100vh;
+    margin-top: 10rem;
+}
+
+.text {
+    max-width: 50%;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.text .design {
+font-size: 1.5rem;
+color: var(--text-green);
+font-weight: 800;
+}
+
+.text .lead_text {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.text .desc {
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.15rem;
+    max-width: 50vw;
+}
+
+.text ul {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.text ul li {
+    line-height: 2.5rem;
+}
+
+.text ul li::marker {
+    color: var(--text-green);
+    font-size: 2.2rem;
+}
+
+.text ul .list_left {
+    margin-right: 8rem;
+}
+
+.container img {
+    max-width: 40%;
+    max-height: 50vh;
+}

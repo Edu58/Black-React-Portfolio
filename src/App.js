@@ -7,6 +7,8 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Burt from './Components/Burt/Burt';
 import BurtTestimonial from './Components/Burt-Testimonial/BurtTestimonial';
+import Capabilities from './Components/Capabilities/Capabilities';
+import WebDevelopment from './Components/Web Development/WebDevelopment';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Testimonial />
       <Burt />
       <BurtTestimonial />
+      <Capabilities />
+      <WebDevelopment />
 
       <Footer />
     </>
