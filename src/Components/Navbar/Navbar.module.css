@@ -5,12 +5,34 @@ nav {
     min-height: 10vh;
     color: var(--text-white);
   }
+
+  nav .logo h1 {
+    font-weight: 800;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+  }
+
+  nav .logo h1:hover {
+    color: var(--text-green);
+    font-size: 1.6rem;
+  }
   
   nav .navlinks ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+  }
+
+  nav .navlinks.showMenu{
+    position: absolute;
+    background-color: var(--text-blue);
+    display: block;
+    right: 0;
+    width: 30vw;
+    height: 50vh;
+    text-align: center;
+    padding: 0 1rem;
   }
   
   nav .navlinks ul > li {
@@ -25,7 +47,11 @@ nav {
   }
 
   @media screen and (max-width:768px) {
-    nav .navlinks ul {
+    nav {
+      padding: 0 1rem;
+    }
+
+    .work, .capabilities {
       display: none;
     }
   }
